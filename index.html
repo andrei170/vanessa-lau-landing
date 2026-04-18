@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanessa Lau — Turn Your Followers Into Clients</title>
+<meta name="description" content="The exact system Vanessa Lau used to go from L'Oreal Brand Manager to $500K in year one. Apply for the Supercharged Mastermind.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg:#060a12;--bg-2:#0b1020;--surface:#111830;--line:rgba(255,255,255,.08);
+--text:#f2f4f9;--muted:#8b94a8;--accent:#0d9488;--accent-2:#5eead4;--glow:#6366f1;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;line-height:1.6;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;top:-30%;left:50%;transform:translateX(-50%);width:80%;height:70%;background:radial-gradient(circle,rgba(13,148,136,.08) 0%,transparent 60%);pointer-events:none;z-index:0}
+.container{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+nav{padding:28px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(6,10,18,.92);backdrop-filter:blur(14px);z-index:100}
+.nav-inner{display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:22px;letter-spacing:-.03em}
+.logo span{background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-cta{padding:10px 22px;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px}
+section{padding:100px 0;position:relative}
+.eyebrow{display:inline-block;padding:6px 14px;background:rgba(13,148,136,.1);border:1px solid rgba(13,148,136,.3);border-radius:20px;font-size:12px;font-weight:600;color:var(--accent-2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:24px}
+h1{font-size:clamp(42px,6vw,76px);font-weight:800;line-height:1.03;letter-spacing:-.03em;margin-bottom:24px}
+h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h2{font-size:clamp(32px,4vw,48px);font-weight:700;line-height:1.15;letter-spacing:-.02em;margin-bottom:20px}
+h3{font-size:22px;font-weight:600;margin-bottom:14px}
+p{color:var(--muted);font-size:17px;max-width:680px}
+.hero{padding-top:80px;text-align:center}
+.hero p{font-size:20px;margin:0 auto 40px;max-width:720px}
+.cta-primary{display:inline-block;padding:18px 38px;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);color:#fff;text-decoration:none;border-radius:12px;font-weight:700;font-size:16px;box-shadow:0 10px 40px rgba(13,148,136,.3);transition:.2s}
+.cta-primary:hover{transform:translateY(-2px)}
+.vsl-box{max-width:900px;margin:60px auto;aspect-ratio:16/9;background:linear-gradient(135deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:center;position:relative}
+.vsl-box::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(13,148,136,.08) 0%,transparent 60%)}
+.play-btn{width:88px;height:88px;border-radius:50%;background:rgba(13,148,136,.15);border:2px solid var(--accent);display:flex;align-items:center;justify-content:center;z-index:1}
+.play-btn svg{width:32px;height:32px;fill:var(--accent-2);margin-left:4px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin:80px 0 0;padding:40px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat-num{font-size:40px;font-weight:800;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.03em}
+.stat-label{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:6px}
+.problem-grid,.pillar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:50px}
+.card{padding:36px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:16px;transition:.3s}
+.card:hover{border-color:rgba(13,148,136,.4);transform:translateY(-4px)}
+.card-num{font-size:14px;color:var(--accent-2);font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px}
+.card h3{color:var(--text)}
+.card p{font-size:15px}
+.divider{height:1px;background:linear-gradient(90deg,transparent 0%,var(--line) 50%,transparent 100%)}
+.lead-capture{background:linear-gradient(135deg,rgba(13,148,136,.08) 0%,rgba(99,102,241,.05) 100%);border:1px solid rgba(13,148,136,.2);border-radius:24px;padding:70px 60px;text-align:center;margin:80px 0}
+.lead-capture h2{max-width:640px;margin:0 auto 20px}
+.form-row{display:flex;gap:12px;max-width:520px;margin:36px auto 0}
+.form-row input{flex:1;padding:18px 22px;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--text);font-size:15px;font-family:inherit}
+.form-row input:focus{outline:none;border-color:var(--accent)}
+.form-row button{padding:18px 32px;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);color:#fff;border:none;border-radius:12px;font-weight:700;font-size:15px;cursor:pointer;font-family:inherit}
+.offer-box{background:linear-gradient(135deg,#0a1120 0%,#141d30 100%);border:1px solid rgba(13,148,136,.25);border-radius:24px;padding:60px;margin-top:40px}
+.offer-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
+.offer-price{font-size:56px;font-weight:800;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.03em}
+.offer-price small{font-size:20px;color:var(--muted);font-weight:500;-webkit-text-fill-color:var(--muted)}
+.feature-list{list-style:none;margin-top:24px}
+.feature-list li{padding:12px 0;color:var(--text);display:flex;align-items:flex-start;gap:12px;font-size:15px}
+.feature-list li::before{content:'✓';color:var(--accent-2);font-weight:700;flex-shrink:0}
+.bio{display:grid;grid-template-columns:1fr 1.5fr;gap:60px;align-items:center}
+.bio-img{aspect-ratio:4/5;background:linear-gradient(135deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px}
+.faq-item{border-bottom:1px solid var(--line);padding:24px 0;cursor:pointer}
+.faq-q{display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:18px;color:var(--text)}
+.faq-plus{width:24px;height:24px;position:relative;flex-shrink:0}
+.faq-plus::before,.faq-plus::after{content:'';position:absolute;background:var(--accent-2);top:50%;left:50%;transition:.3s}
+.faq-plus::before{width:14px;height:2px;transform:translate(-50%,-50%)}
+.faq-plus::after{width:2px;height:14px;transform:translate(-50%,-50%)}
+.faq-item.open .faq-plus::after{transform:translate(-50%,-50%) rotate(90deg);opacity:0}
+.faq-a{max-height:0;overflow:hidden;transition:.3s}
+.faq-item.open .faq-a{max-height:300px;padding-top:14px}
+.footer{padding:60px 0;border-top:1px solid var(--line);text-align:center}
+.footer p{margin:0 auto;font-size:14px}
+@media(max-width:768px){
+.problem-grid,.pillar-grid,.stats{grid-template-columns:1fr}
+.offer-grid,.bio{grid-template-columns:1fr}
+.lead-capture,.offer-box{padding:40px 24px}
+.form-row{flex-direction:column}
+section{padding:70px 0}
+.stats{gap:20px}
+}
+.reveal{opacity:0;transform:translateY(30px);transition:.8s}
+.reveal.in{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+<nav>
+<div class="container nav-inner">
+<div class="logo">VANESSA <span>LAU</span></div>
+<a href="#apply" class="nav-cta">Apply Now</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="eyebrow reveal">SUPERCHARGED MASTERMIND</div>
+<h1 class="reveal">Turn Your Followers Into <em>Paying Clients</em> In 12 Weeks</h1>
+<p class="reveal">830K YouTube subscribers. 280K Instagram followers. $500K in year one. Here is the system behind all of it, and how I help coaches build the same thing.</p>
+<div class="vsl-box reveal">
+<div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+</div>
+<a href="#apply" class="cta-primary reveal">Apply For The Mastermind</a>
+<div class="stats reveal">
+<div><div class="stat-num">830K</div><div class="stat-label">YouTube Subscribers</div></div>
+<div><div class="stat-num">$500K</div><div class="stat-label">Year One Revenue</div></div>
+<div><div class="stat-num">1.2M+</div><div class="stat-label">Total Audience</div></div>
+<div><div class="stat-num">100s</div><div class="stat-label">Coaches Trained</div></div>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+<div class="container">
+<div class="eyebrow reveal">THE PROBLEM</div>
+<h2 class="reveal">Followers Do Not Pay<br>Your Bills</h2>
+<p class="reveal" style="font-size:18px">Most coaches have the audience. They are missing the system that turns attention into applications.</p>
+<div class="problem-grid">
+<div class="card reveal"><div class="card-num">TRAP 01</div><h3>Education Overload</h3><p>You teach so much for free that your audience never needs to hire you. They get the result from your content and move on without paying.</p></div>
+<div class="card reveal"><div class="card-num">TRAP 02</div><h3>No Clear Next Step</h3><p>Your reel gets 50K views. Then what? No link, no offer, no CTA. Fifty thousand people watched and none of them know you sell anything.</p></div>
+<div class="card reveal"><div class="card-num">TRAP 03</div><h3>Wrong Audience Filter</h3><p>Your content attracts people who want free tips, not people who want to hire a coach. The content itself is filtering for the wrong buyer.</p></div>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+<div class="container">
+<div class="eyebrow reveal">THE FRAMEWORK</div>
+<h2 class="reveal">The Content Pipeline,<br>Built In 3 Stages</h2>
+<div class="pillar-grid">
+<div class="card reveal"><div class="card-num">STAGE 1</div><h3>Attract</h3><p>Content with a job. Every post, video, or episode moves one person one step closer to your offer. Not just engagement. Movement.</p></div>
+<div class="card reveal"><div class="card-num">STAGE 2</div><h3>Nurture</h3><p>Lead magnet to email sequence. Capture the viewer before they scroll away. Build trust over 25 days. Address every objection before the call.</p></div>
+<div class="card reveal"><div class="card-num">STAGE 3</div><h3>Convert</h3><p>Application and call. By the time they apply, they have watched the VSL, read the emails, and self-qualified. Close rate: 40%+.</p></div>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+<div class="container">
+<div class="lead-capture reveal">
+<div class="eyebrow">FREE TRAINING</div>
+<h2>The Followers-To-Clients Roadmap</h2>
+<p style="margin:0 auto">The exact system I used to build a multi-seven-figure coaching business from a social media following. No hype, no filler. Just the framework.</p>
+<form class="form-row" onsubmit="event.preventDefault();alert('Check your inbox.')">
+<input type="email" placeholder="Enter your email" required>
+<button type="submit">Get Access</button>
+</form>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section id="apply">
+<div class="container">
+<div class="eyebrow reveal">THE PROGRAM</div>
+<h2 class="reveal">Supercharged Mastermind</h2>
+<div class="offer-box reveal">
+<div class="offer-grid">
+<div>
+<div class="offer-price">Application<small>&nbsp;only · Payment plans available</small></div>
+<p style="margin-top:16px">The Supercharged Mastermind is a 12-week intensive for coaches and creators who have the audience but not the clients. I work with 20 people per cohort. We build your pipeline from content to close. Investment is discussed on the qualification call.</p>
+<ul class="feature-list">
+<li>Weekly group coaching calls with Vanessa</li>
+<li>Full content pipeline audit and rebuild</li>
+<li>DM strategy implementation</li>
+<li>Offer creation or refinement</li>
+<li>Private community for daily support</li>
+<li>Email sequence templates and swipe files</li>
+<li>Application funnel build (VSL + page + CTA)</li>
+</ul>
+</div>
+<div>
+<div style="background:rgba(13,148,136,.08);border:1px solid rgba(13,148,136,.2);border-radius:16px;padding:32px;text-align:center">
+<div class="eyebrow">PROOF</div>
+<h3 style="margin-bottom:12px">Sarah. Toronto. 8 Clients In 60 Days.</h3>
+<p style="margin:0 auto 24px">8K followers. Zero clients. Rebuilt her bio, added a lead magnet, wrote a 5-email sequence. $12,000 in two months.</p>
+<a href="#" class="cta-primary" style="width:100%">Apply Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+<div class="container">
+<div class="bio">
+<div class="bio-img reveal">[Vanessa's headshot]</div>
+<div class="reveal">
+<div class="eyebrow">ABOUT VANESSA</div>
+<h2>From L'Oreal To 830K Subscribers</h2>
+<p style="font-size:17px;margin-top:20px">I left a Brand Manager role at L'Oreal in 2019 and started teaching Instagram strategy on YouTube. Within 12 months, I had 100,000 subscribers and $500,000 in digital product revenue.</p>
+<p style="margin-top:16px">Today I have 830K YouTube subscribers, a podcast, and the Supercharged Mastermind. My only focus is helping coaches turn followers into clients, without paid ads, without being salesy, and without burning out on content.</p>
+</div>
+</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+<div class="container" style="max-width:820px">
+<div class="eyebrow reveal">FAQ</div>
+<h2 class="reveal">Common Questions</h2>
+<div style="margin-top:40px">
+<div class="faq-item reveal" onclick="this.classList.toggle('open')">
+<div class="faq-q"><span>How is this different from BOSSGRAM Academy?</span><div class="faq-plus"></div></div>
+<div class="faq-a"><p>BOSSGRAM was a self-paced course for beginners. The Mastermind is a high-touch, small-group coaching intensive for coaches who already have an audience and want a pipeline that converts. Completely different format, depth, and level of support.</p></div>
+</div>
+<div class="faq-item reveal" onclick="this.classList.toggle('open')">
+<div class="faq-q"><span>How big is each cohort?</span><div class="faq-plus"></div></div>
+<div class="faq-a"><p>Max 20 people per cohort. The small group size is intentional. Every person gets individual attention on their content, offer, and pipeline during the weekly calls.</p></div>
+</div>
+<div class="faq-item reveal" onclick="this.classList.toggle('open')">
+<div class="faq-q"><span>Do I need a large following to join?</span><div class="faq-plus"></div></div>
+<div class="faq-a"><p>No. You need at least 1,000 followers and a clear expertise. The pipeline works regardless of audience size. Sarah signed 8 clients with 8,000 followers.</p></div>
+</div>
+<div class="faq-item reveal" onclick="this.classList.toggle('open')">
+<div class="faq-q"><span>What if I do not have an offer yet?</span><div class="faq-plus"></div></div>
+<div class="faq-a"><p>We build or refine your offer in week one. But you need to know your expertise going in. If you have not decided what you want to coach on, this is not the right program yet.</p></div>
+</div>
+<div class="faq-item reveal" onclick="this.classList.toggle('open')">
+<div class="faq-q"><span>What is the time commitment?</span><div class="faq-plus"></div></div>
+<div class="faq-a"><p>One weekly group call (90 minutes) plus implementation time (3-5 hours per week). Most of the work is building your pipeline assets, not consuming content.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="text-align:center">
+<div class="container">
+<h2 class="reveal">Your Audience Is Already There.<br>Give Them A Next Step.</h2>
+<p class="reveal" style="margin:20px auto 40px">Application review takes 48 hours. If you are a fit, we schedule a call.</p>
+<a href="#apply" class="cta-primary reveal">Apply Now</a>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<p>© 2026 Vanessa Lau. All rights reserved.</p>
+</div>
+</footer>
+
+<script>
+const obs=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
+</script>
+</body>
+</html>
